@@ -1,0 +1,32 @@
+{
+  "name": "preact-social",
+  "version": "1.0.0",
+  "description": "A library of social sharing buttons for preact projects",
+  "main": "dist/index.js",
+  "umd:main": "dist/index.min.js",
+  "module": "dist/index.es.js",
+  "scripts": {
+    "build": "node build",
+    "pretest": "npm run build"
+  },
+  "keywords": [
+    "preact",
+    "social",
+    "sharing",
+    "icons"
+  ],
+  "author": "apvarun",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "gzip-size": "^4.1.0",
+    "pretty-bytes": "^4.0.2",
+    "rollup": "^0.52.1",
+    "rollup-plugin-buble": "^0.18.0",
+    "rollup-plugin-node-resolve": "^3.0.0",
+    "uglify-js": "^3.2.1"
+  },
+  "peerDependencies": {
+    "preact": "^8.1.0"
+  }
+}
