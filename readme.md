@@ -30,6 +30,18 @@ import {FacebookShare, TwitterIcon} from 'preact-social';
 />
 ```
 
+## Supported Share Icons
+
+| Share Icon   |      Properties      |
+|----------|-------------|
+| FacebookShare | url<br>size<br>fill<br>background<br>circle |
+| TwitterShare | text<br>url<br>size<br>fill<br>background<br>circle |
+| WhatsAppShare | text<br>url<br>size<br>fill<br>background<br>circle |
+| RedditShare | url<br>size<br>fill<br>background<br>circle |
+| LinkedinShare | text<br>url<br>summary<br>source<br>size<br>fill<br>background<br>circle |
+| PinterestShare | text<br>url<br>size<br>fill<br>background<br>circle |
+| EmailShare | text<br>url<br>size<br>fill<br>background<br>circle |
+
 
 ## Properties
 
@@ -64,3 +76,7 @@ The `circle` attribute, when passed, renders the icons in a circular container.
 ## License
 
 MIT © [Varun A P](https://apvarun.com)
+
+## Acknowledgements
+
+- Icons from [Simple Icons](https://simpleicons.org)

@@ -1,6 +1,6 @@
 {
   "name": "preact-social",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "A library of social sharing buttons for preact projects",
   "main": "dist/index.js",
   "umd:main": "dist/index.min.js",
