@@ -3,7 +3,7 @@ import {h} from 'preact';
 const reddit = ({size, fill}) => {
     return (
         <svg
-            fill={fill}
+            fill={fill || '#FF4500'}
             width={size || '32px'}
             height={size || '32px'}
             aria-labelledby="simpleicons-reddit-icon"

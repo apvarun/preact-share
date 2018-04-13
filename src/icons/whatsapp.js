@@ -3,7 +3,7 @@ import {h} from 'preact';
 const whatsapp = ({size, fill}) => {
     return (
         <svg
-            fill={fill}
+            fill={fill || '#25D366'}
             width={size || '32px'}
             height={size || '32px'}
             aria-labelledby="simpleicons-whatsapp-icon"

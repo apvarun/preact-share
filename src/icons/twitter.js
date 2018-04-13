@@ -3,7 +3,7 @@ import {h} from 'preact';
 const twitter = ({size, fill}) => {
     return (
         <svg
-            fill={fill}
+            fill={fill || '#1DA1F2'}
             width={size || '32px'}
             height={size || '32px'}
             aria-labelledby="simpleicons-twitter-icon"

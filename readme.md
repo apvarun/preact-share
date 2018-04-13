@@ -30,6 +30,8 @@ import {FacebookShare, TwitterIcon} from 'preact-social';
 />
 ```
 
+[DEMO](https://codesandbox.io/s/rjrw6p2knp)
+
 ## Supported Share Icons
 
 | Share Icon   |      Properties      |
@@ -40,6 +42,7 @@ import {FacebookShare, TwitterIcon} from 'preact-social';
 | RedditShare | url<br>size<br>fill<br>background<br>circle |
 | LinkedinShare | text<br>url<br>summary<br>source<br>size<br>fill<br>background<br>circle |
 | PinterestShare | text<br>url<br>size<br>fill<br>background<br>circle |
+| TelegramShare | text<br>url<br>size<br>fill<br>background<br>circle |
 | EmailShare | text<br>url<br>size<br>fill<br>background<br>circle |
 
 
